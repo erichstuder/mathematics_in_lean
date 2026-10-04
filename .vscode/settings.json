@@ -1,6 +1,10 @@
 {
     "editor.minimap.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
     "editor.quickSuggestions.comments": true,
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
