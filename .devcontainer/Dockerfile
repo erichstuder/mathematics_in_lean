@@ -1,5 +1,8 @@
 FROM mcr.microsoft.com/devcontainers/base:jammy
 
+RUN sudo apt update && sudo apt install -y \
+    tig
+
 USER vscode
 WORKDIR /home/vscode
 
